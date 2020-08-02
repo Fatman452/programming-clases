@@ -3,6 +3,7 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 void find_minor(int min_age);
+void response (int index);
 
 int ages[]={13, 15, 18, 25, 30, 60};
 int age_test =0;
@@ -28,26 +29,8 @@ void find_minor(int min_age){
 	
 		if(ages[mid_limit]==min_age){
 			int i=mid_limit-1;
+			response(i);
 		
-			for(i;i>=0;--i){
-				if(i==5){
-					printf("José es un nino \n");
-				}
-				else if(i==4){
-					printf("María es una nina \n");
-				}
-				else if(i==3){
-					printf("John es un nino \n");
-				}
-				else if(i==2){
-					printf("Diana es una nina \n");
-				}
-				else if(i==1){
-					printf("Kelvin es un nino \n");
-				}
-				else if(i==0){
-					printf("Reynold es un nino \n");
-				}
 			}
 			if(i<0){
 				printf("No hay ninos \n");
@@ -66,4 +49,27 @@ void find_minor(int min_age){
 		}
 	}
 	
+}
+
+void response (int index){
+	
+		for(i;i>=0;--i){
+				if(i==5){
+					printf("José es un nino \n");
+				}
+				else if(i==4){
+					printf("María es una nina \n");
+				}
+				else if(i==3){
+					printf("John es un nino \n");
+				}
+				else if(i==2){
+					printf("Diana es una nina \n");
+				}
+				else if(i==1){
+					printf("Kelvin es un nino \n");
+				}
+				else if(i==0){
+					printf("Reynold es un nino \n");
+				}
 }
