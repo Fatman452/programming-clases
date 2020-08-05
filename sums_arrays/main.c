@@ -19,7 +19,7 @@ int main(int argc, char *argv[]) {
 	sums_arrays(integers_array);
 
 	for(i=0;i<4;++i){
-		printf("resultado posicioin #%d:   %d\n", i,integers_array[i]);
+		printf("resultado posicion #%d:   %d\n", i,integers_array[i]);
 	}
 	
 	return 0;
@@ -30,5 +30,4 @@ void sums_arrays(int *array){
 	for(b=1;b<4;++b){
 		array[b]=array[b]+array[b-1];
 	}
-	
 }
