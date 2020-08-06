@@ -27,7 +27,7 @@ void binary_search(int num){
 		mid_limit= (low_limit+high_limit)/2;
 	
 		if(numbers[mid_limit]==num){
-			printf("encontrado!!! \n");
+			printf("\n\nencontrado!!! \n");
 			break;
 		}
 		else if(numbers[mid_limit]>num){
@@ -38,7 +38,7 @@ void binary_search(int num){
 		}
 	
 		if(low_limit>high_limit){
-			printf("No existe un registro con ese numero \n");
+			printf("\n\nNo existe un registro con ese numero \n");
 		}
 	}
 	
