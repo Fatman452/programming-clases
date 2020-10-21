@@ -5,9 +5,9 @@ import monegros.restaurant.entities.repository.IChefRepository;
 import monegros.restaurant.services.interfaces.IChefService;
 import monegros.restaurant.entities.Chef;
 
-public class ChefServiceIMPL implements IChefService{
+public class ChefServiceImpl implements IChefService{
 	private final IChefRepository chefRepository;
-	public ChefServiceIMPL(IChefRepository chefRepository) {
+	public ChefServiceImpl(IChefRepository chefRepository) {
 		this.chefRepository = chefRepository;
 	}
 	@Override

@@ -6,10 +6,10 @@ import monegros.restaurant.entities.Order;
 import monegros.restaurant.entities.repository.IOrderRepository;
 import monegros.restaurant.services.interfaces.IOrderService;
 
-public class OrderServiceIMPL implements IOrderService{
+public class OrderServiceImpl implements IOrderService{
 	
 	private final IOrderRepository orderRepository;
-	public OrderServiceIMPL(IOrderRepository orderRepository) {
+	public OrderServiceImpl(IOrderRepository orderRepository) {
 		this.orderRepository=orderRepository;
 	}
 	@Override

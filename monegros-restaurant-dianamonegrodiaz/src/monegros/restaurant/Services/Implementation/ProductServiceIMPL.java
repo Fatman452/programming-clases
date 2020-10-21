@@ -5,10 +5,10 @@ import monegros.restaurant.entities.Product;
 import monegros.restaurant.entities.repository.IProductRepository;
 import monegros.restaurant.services.interfaces.IProductService;
 
-public class ProductServiceIMPL implements IProductService{
+public class ProductServiceImpl implements IProductService{
 private final IProductRepository productRepository;
 	
-	public ProductServiceIMPL(IProductRepository productRepository) {
+	public ProductServiceImpl(IProductRepository productRepository) {
 		this.productRepository=productRepository;
 	}
 	@Override

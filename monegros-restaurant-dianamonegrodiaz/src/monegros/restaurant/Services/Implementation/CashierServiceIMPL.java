@@ -5,10 +5,10 @@ import monegros.restaurant.entities.Cashier;
 import monegros.restaurant.entities.repository.ICashierRepository;
 import monegros.restaurant.services.interfaces.ICashierService;
 
-public class CashierServiceIMPL implements ICashierService{
+public class CashierServiceImpl implements ICashierService{
 	private final ICashierRepository cashierRepository;
 	
-	public CashierServiceIMPL(ICashierRepository cashierRepository) {
+	public CashierServiceImpl(ICashierRepository cashierRepository) {
 		this.cashierRepository=cashierRepository;
 	}
 	@Override

@@ -5,10 +5,10 @@ import monegros.restaurant.entities.Menu;
 import monegros.restaurant.entities.repository.IMenuRepository;
 import monegros.restaurant.services.interfaces.IMenuService;
 
-public class MenuServiceIMPL implements IMenuService{
+public class MenuServiceImpl implements IMenuService{
 private final IMenuRepository menuRepository;
 	
-	public MenuServiceIMPL(IMenuRepository menuRepository) {
+	public MenuServiceImpl(IMenuRepository menuRepository) {
 		this.menuRepository=menuRepository;
 	}
 	@Override

@@ -6,10 +6,10 @@ import monegros.restaurant.entities.Employee;
 import monegros.restaurant.entities.repository.IEmployeeRepository;
 import monegros.restaurant.services.interfaces.IEmployeeService;
 
-public class EmployeeServiceIMPL implements IEmployeeService{
+public class EmployeeServiceImpl implements IEmployeeService{
 private final IEmployeeRepository employeeRepository;
 	
-	public EmployeeServiceIMPL(IEmployeeRepository employeeRepository) {
+	public EmployeeServiceImpl(IEmployeeRepository employeeRepository) {
 		this.employeeRepository=employeeRepository;
 	}
 	@Override

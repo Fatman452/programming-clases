@@ -5,10 +5,10 @@ import monegros.restaurant.entities.MeasureUnit;
 import monegros.restaurant.entities.repository.IMeasurementUnitRepository;
 import monegros.restaurant.services.interfaces.IMeasureUnitService;
 
-public class MeasureUnitServiceIMPL implements IMeasureUnitService{
+public class MeasureUnitServiceImpl implements IMeasureUnitService{
 private final IMeasurementUnitRepository measureUnitRepository;
 	
-	public MeasureUnitServiceIMPL(IMeasurementUnitRepository measureUnitRepository) {
+	public MeasureUnitServiceImpl(IMeasurementUnitRepository measureUnitRepository) {
 		this.measureUnitRepository=measureUnitRepository;
 	}
 	@Override

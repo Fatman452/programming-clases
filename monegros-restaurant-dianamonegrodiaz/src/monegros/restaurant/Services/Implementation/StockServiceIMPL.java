@@ -5,10 +5,10 @@ import monegros.restaurant.entities.Stock;
 import monegros.restaurant.entities.repository.IStockRepository;
 import monegros.restaurant.services.interfaces.IStockService;
 
-public class StockServiceIMPL implements IStockService{
+public class StockServiceImpl implements IStockService{
 private final IStockRepository stockRepository;
 	
-	public StockServiceIMPL(IStockRepository stockRepository) {
+	public StockServiceImpl(IStockRepository stockRepository) {
 		this.stockRepository=stockRepository;
 	}
 	@Override
